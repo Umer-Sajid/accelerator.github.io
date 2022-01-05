@@ -237,6 +237,7 @@
     max-width: 125px;
     text-align: center;
     border: 1px solid transparent;
+    cursor: pointer;
 }
 
 .popup-links {
