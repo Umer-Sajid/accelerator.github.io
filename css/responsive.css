@@ -1,0 +1,350 @@
+
+@media (min-width: 650px) and (max-width: 990px){
+   .header-top-strip-content {
+    flex-direction: column;
+} 
+.cart-list{
+  right: 235px;
+  top: 232px;
+}
+ .banner-tab-content{
+  flex-direction: column;
+  align-items: center;
+ }
+ .banner-tab-content-left ,.banner-tab-content-right{
+  margin-right: 0;
+  width: 100%;
+}
+.make>select{
+  width: 100%;
+}
+.make-1{
+  justify-content: space-around;
+}
+ .banner-tab-btn{
+  flex-direction: column;
+ }
+ .fac-btn{
+          margin-bottom: 10px;
+ }
+ .banner-content, .banner-content-1 {
+  align-items: center;
+ }
+ .browse-cars-heading{
+  text-align: center;
+ }
+ .browse-cars{
+  justify-content: center;
+  background-position: center;
+ }
+ .browse-cars-main-content>a {
+  color: #fa6a2f;
+ }
+ .browse-cars-main-content>a>span {
+    color: #3d414e;
+}
+.browse-cars-btn{
+  text-align: center;
+}
+.car-deals-main-content{
+  grid-template-columns: auto auto;
+  padding: 0px 10px;
+}
+.why-choose-us-main-content{
+  flex-direction: column;
+  align-items: center;
+}
+.dealership-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.dealership-content>p{
+  text-align: center;
+}
+.why-choose-us-key-points{
+  width: 100%;
+}
+.sell-car-content, .buy-car-content{
+  justify-content: space-around;
+}
+.new-car-1{
+  flex-direction: column;
+}
+.new-car-1-image{
+  margin-bottom: 10px;
+}
+.new-car-1-image img{
+  width: 100%;
+  height: 100%;
+}
+.new-car-1-image-description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.new-car-1-image-list {
+  justify-content: space-around;
+  flex-direction: row;
+}
+.new-car-1-image-list>a:first-child{
+  padding-left: 4%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+.recent-listing{
+  align-items: center;
+}
+.financing-calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.financing-calculator-content>form {
+    align-items: center;
+ }
+ .contact-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .contact-us-content>form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+}
+ /* 
+   ##Device = Low Resolution Tablets, Mobiles (Landscape)
+   ##Screen = less than 650px
+ */
+ 
+ @media  (max-width: 650px) {
+   
+   .header-top-strip-content{
+    flex-direction: column;
+   }
+   .header-navbar{
+    display: none;
+    flex-direction: column;
+   }
+   .navbar-dropdown{
+    width: 100%;
+   }
+   .responsive-n-b{
+    width: 100%;
+    display: block;
+    height: 20px;
+   }
+   .responsive-n-b span{
+    display: block;
+   }
+   .responsive-n-b i{
+    color: #fa6a2f;
+    padding-left: 33px;
+   }
+   .banner-main{
+    flex-direction: column;
+   }
+   .banner-content ,.banner-content-1 ,.banner-content-3{
+    align-items: center;
+    width: 100%;
+   }
+    .banner-content,.banner-tab{
+      width: 100%;
+    }
+    .banner-btn{
+      margin-bottom: 35px;
+    }
+   .banner-content>h1{
+    font-size: 35px;
+   }
+   .banner-content>h1>span ,.banner-content span ,.banner-content-1 h1 span{
+    font-size: 15px;
+   }
+   .banner-content h1:before{
+    right: 37px;
+    top: 100px;
+    width: 52%;
+    height: 2px;
+   }
+   .banner-content h1:after{
+    right: 37px;
+    top: 104px;
+    width: 32%;
+    height: 2px;
+   }
+   .banner-content-1>p{
+    font-size: 15px;
+    text-align: center;
+   }
+   .banner-content-1>h1{
+    font-size: 20px;
+   }
+   .banner-content-1 h1:before{
+    right: 39px;
+    top: 101px;
+    width: 64%;
+    height: 2px;
+   }
+   .banner-content-1 h1:after{
+    right: 39px;
+    top: 104px;
+    width: 44%;
+    height: 2px;
+   }
+   .cart-list{
+    right: 60px;
+    top: 152px;
+   }
+   .banner-content-3>h1{
+    font-size: 35px;
+   }
+   .banner-content-3>h1>span{
+    font-size: 25px;
+   }
+   .banner-tab-content{
+    flex-direction: column;
+   }
+   .banner-tab-btn{
+    flex-direction: column;
+   }
+   .fac-btn{
+    margin-bottom: 30px;
+   }
+   .browse-cars-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .browse-cars-main-content {
+    grid-template-columns: auto auto;
+   }
+   .browse-cars{
+    justify-content: center;
+    background-size: contain;
+    background-position: center;
+   }
+   .browse-cars-main-content>a{
+    color: #fa6a2f;
+   }
+   .car-deals-main-content{
+    grid-template-columns: auto;
+   }
+   .car-deals-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+   }
+   .why-choose-us-main-content{
+    flex-direction: column;
+    align-items: center;
+   }
+   .dealership-btn {
+    margin-bottom: 36px;
+  }
+  .dealership-btn>a{
+    padding: 17px 14px;
+  }
+  .why-choose-us-key-points{
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .key-point-1, .key-point-2{
+    margin-left: 0;
+  }
+  .new-car-1{
+    flex-direction: column;
+  }
+  .buy-sell-content{
+    padding: 70px 10px 60px 10px;
+  }
+  .sell-car-content>p ,.buy-car-content>p{
+    font-size: 15px;
+  }
+  .sell-car-content>a ,.buy-car-content>a{
+    padding: 16px;
+  }
+  .sell-car-content{
+    margin-right: 54px;
+  }
+  .new-car-1-image>img{
+    width: 100%;
+  }
+  .new-car-1-image-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .new-car-1-description-heading>h1 {
+    font-size: 15px;
+  }
+  .new-car-1-description-btns>span ,.new-car-1-description-btns>.orange{
+    font-size: 8px;
+  }
+  .highlights>span{
+    margin-right: 50px;
+  }
+  .new-car-1-image-list{
+    align-items: center;
+  }
+  .new-car-1-image-list>a:first-child{
+    padding-left: 4%;
+  }
+  .news-1-image>img {
+    height: 100%;
+  }
+  .news-1-image-overlay{
+    height: 100%;
+  }
+  .news-1-date{
+    font-size: 13px;
+  }
+  .news-1-date>span {
+    font-size: 23px;
+  }
+  .news-1-image-description-content>h1{
+    font-size: 10px;
+  }
+  .news-1-image-description-content>p{
+    font-size: 10px;
+  }
+  .news-1-header>span{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .newsletter{
+    flex-direction: column;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+}
+.recent-listing{
+  align-items: center;
+}
+.financing-calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.financing-calculator-content>form {
+    align-items: center;
+ }
+ .contact-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .contact-us-content>form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ }
+ 
