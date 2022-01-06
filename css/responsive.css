@@ -133,20 +133,28 @@
     display: none;
     flex-direction: column;
    }
+   .header-navbar>a, .navbar-dropdown>a{
+    padding: 0;
+   }
    .navbar-dropdown{
     width: 100%;
+    padding: 10px;
    }
-   .responsive-n-b{
-    width: 100%;
+   #menu{
+    position: absolute;
     display: block;
-    height: 20px;
-   }
-   .responsive-n-b span{
-    display: block;
-   }
-   .responsive-n-b i{
+    top: 7%;
+    left: 28px;
     color: #fa6a2f;
-    padding-left: 33px;
+   }
+   .popup{
+    flex-direction: column;
+    width: 100%;
+   }
+   .popup-links>a{
+    display: flex;
+    font-size: 12px;
+    padding: 10px 10px;
    }
    .banner-main{
     flex-direction: column;
@@ -260,6 +268,7 @@
   }
   .new-car-1{
     flex-direction: column;
+    padding: 0px 10px;
   }
   .buy-sell-content{
     padding: 70px 10px 60px 10px;
@@ -320,13 +329,17 @@
   }
   .newsletter{
     flex-direction: column;
+    padding: 71px 10px 60px;
   }
   .footer-content {
     display: flex;
     flex-direction: column;
 }
+.recent-listing-heading{
+  text-align: center;
+}
 .recent-listing{
-  align-items: center;
+  padding: 0px 10px;
 }
 .financing-calculator{
   display: flex;
