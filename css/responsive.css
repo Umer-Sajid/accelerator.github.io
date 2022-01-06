@@ -151,6 +151,17 @@
     flex-direction: column;
     width: 100%;
    }
+   .popup span{
+    background: #fa6a2f;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 19px 22px;
+    border-radius: 90px;
+    position: absolute;
+    top: 460px;
+    left: 155px;
+   }
    .popup-links>a{
     display: flex;
     font-size: 12px;
